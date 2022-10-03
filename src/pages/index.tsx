@@ -1,12 +1,13 @@
-import type { NextPage } from "next";
 import Questions from "../components/questions";
 
-const Home: NextPage = () => {
+function Home() {
   return (
-    <p className="w-4/5 mx-auto">
-      <Questions />
-    </p>
+    <div>
+      <main>
+        <Questions />
+      </main>
+    </div>
   );
-};
+}
 
 export default Home;
